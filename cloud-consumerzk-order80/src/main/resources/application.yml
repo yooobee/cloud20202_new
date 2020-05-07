@@ -1,0 +1,16 @@
+server:
+  port: 80  #8004表示注册到zookeeper服务器中的提供者端口
+
+
+
+#服务别名，---注册到zookeeper中的服务的名称
+spring:
+  application:
+    name: cloud-consumer-order
+  cloud:
+    zookeeper:
+      connect-string: 192.168.90.108:2181
+
+
+
+

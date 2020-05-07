@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <settings>
+        <setting name="mapUnderscoreToCamelCase" value="true"/>
+    </settings>
+    <!--<typeAliases>-->
+    <!--&lt;!&ndash;package:为某个包下的所有类批量起别名&ndash;&gt;-->
+    <!--<package name="com.example.springboot.bean"/>-->
+    <!--</typeAliases>-->
+
+</configuration>
